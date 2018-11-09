@@ -1,1 +1,2 @@
-# Galeria
+# Exercícios
+JavaScript
