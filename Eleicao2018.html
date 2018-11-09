@@ -4,15 +4,23 @@
 	<meta charset="UTF-8">
 	<title>Urna Eletrônica</title>
 	<meta name="viewport" content="initial-scale=1">
+	<style type="text/css">
+		.andrade {
+			color: red;
+		}
+		.jailson{
+			color: green;
+		}
+	</style>
 </head>
 <body style="text-align: center;">
 	<script>
 		
 		var vot = prompt("Digite o numero de seu Presidente,(13) ou (17)");
 	if(vot==17){
-		document.write("<h1 style="color:green;">Você votou no Jailson</h1>");
+		document.write("<h1 class='andrade'>Você votou no Jailson</h1>");
 	}else if(vot==13){
-		document.write("<h1 style="color:red;">Você votou no Andrade</h1>");
+		document.write("<h1 class='jailson'>Você votou no Andrade</h1>");
 	}else defaut:document.write("<h1>Voto invalido</h1>");
 
 		
